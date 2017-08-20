@@ -33,12 +33,14 @@ export default {
   firebase: {
     films: filmsRef
   },
+  
   data () {
     return {
       msg: 'These are films Bryan has in the hopper...',
       input: '',
     }
   },
+
   methods: {
     suggestFilm() {
       if (this.input) {
