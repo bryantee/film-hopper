@@ -2528,6 +2528,10 @@ nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
 
+ncp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
+
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
@@ -3908,6 +3912,14 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-gh-pages@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/vue-gh-pages/-/vue-gh-pages-1.4.0.tgz#2ab14891409e5124ef323aae2c00c75ddf1ab0a3"
+  dependencies:
+    mkdirp "^0.5.1"
+    ncp "^2.0.0"
+    rimraf "^2.6.1"
 
 vue-hot-reload-api@^2.1.0:
   version "2.1.0"
